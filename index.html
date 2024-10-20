@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirasons Escola de Música - Gerador de tríades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inspirasons Escola de Música - Gerador de tríades</h1>
+        
+        <div>
+            <label for="nota">Escolha uma nota:</label>
+            <select id="nota">
+                <option value="C">C</option>
+                <option value="C#">C#</option>
+                <option value="Db">Db</option>
+                <option value="D">D</option>
+                <option value="D#">D#</option>
+                <option value="Eb">Eb</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="F#">F#</option>
+                <option value="Gb">Gb</option>
+                <option value="G">G</option>
+                <option value="G#">G#</option>
+                <option value="Ab">Ab</option>
+                <option value="A">A</option>
+                <option value="A#">A#</option>
+                <option value="Bb">Bb</option>
+                <option value="B">B</option>
+            </select>
+
+            <label for="tipoTriade">Escolha o tipo de tríade:</label>
+            <select id="tipoTriade">
+                <option value="maior">Maior</option>
+                <option value="menor">Menor</option>
+                <option value="aumentada">Aumentada</option>
+                <option value="diminuta">Diminuta</option>
+            </select>
+
+            <button onclick="gerarTriade()">Gerar Tríade</button>
+        </div>
+
+        <div id="resultado"></div>
+
+        <!-- Adição da tabela de acordes -->
+        <div class="tabela-acordes">
+            <h2>Tabela de Acordes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Acorde</th>
+                        <th>Notas</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaResultado">
+                    <!-- Resultados das tríades serão adicionados aqui -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Helicleiton</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

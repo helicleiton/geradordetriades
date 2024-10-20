@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #FFA500; /* Laranja */
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #FFA500; /* Laranja */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8c00; /* Laranja mais escuro */
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.tabela-acordes {
+    margin-top: 20px;
+    background-color: #292929;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFA500; /* Laranja para cabeçalho */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Alterna as cores das linhas para melhorar a legibilidade */
+}
+
+tr:hover {
+    background-color: #555; /* Destaca a linha ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
